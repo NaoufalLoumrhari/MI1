@@ -1,0 +1,9 @@
+#foto
+{
+    src: url(../IMG/Naoufal1.jpg);
+}
+
+#foto:hover
+{
+    src: url(../IMG/Naoufal.jpg);
+}
