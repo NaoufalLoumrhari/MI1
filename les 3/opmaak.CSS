@@ -1,0 +1,22 @@
+h1
+{
+    text-align: center;
+    text-decoration: underline;
+    color: gray;
+    text-transform: uppercase; 
+}
+
+h2
+{
+    text-transform: capitalize;
+    border-style: groove;
+    border-color: gray;
+    color: gray;
+}
+
+body
+{
+    color: white;
+    background-image: url(../IMG/blub.jpg);
+    font-family: verdana, arial, sans-serif;
+}
