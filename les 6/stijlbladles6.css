@@ -1,0 +1,32 @@
+body
+{
+    
+    background-color:bisque;
+}
+
+h2
+{
+    background-color: darksalmon;
+    color: whitesmoke;
+    
+}
+
+h3
+{
+    background-color:darksalmon
+}
+
+#Antwoord
+{
+    
+    color: white;
+    background-color: white;
+    
+}
+
+#Antwoord:hover
+{
+    
+    color: black;
+    
+}
