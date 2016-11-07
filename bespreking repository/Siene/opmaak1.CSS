@@ -1,0 +1,30 @@
+h1
+{
+    background-color: #9A8F8F;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    text-transform: uppercase; 
+}
+h2:hover
+{
+    background-color: #9A8F8F;
+    color:black;
+}
+
+
+h2
+{
+    padding: 0.2EM;
+    text-transform: capitalize;
+    border-style: groove;
+    border-color: gray;
+    color: gray;
+}
+
+body
+{
+    color: white;
+    background-color: #120D0D;
+    font-family: verdana, arial, sans-serif;
+}
