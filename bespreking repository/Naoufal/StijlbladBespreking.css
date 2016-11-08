@@ -1,0 +1,41 @@
+body
+{
+    
+    font-family: sans-serif;
+    background-color: lightgrey;
+    
+}
+
+h1
+{
+        color:dimgray;
+}
+
+h3
+{
+    color:darkslategrey;
+}
+
+h4
+{
+    color:darkgrey;
+    
+}
+
+p
+{
+    padding-left: 1.75em;
+    font-size: 85%;
+}
+
+a
+{
+    text-decoration: none;
+    color: dimgray;
+    font-style: italic;
+}
+
+a:hover
+{
+    color: whitesmoke;
+}
