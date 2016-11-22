@@ -10,24 +10,23 @@ h1
 
 #Home img
 {
-    height: 500px;
-    width: 400px;
+    margin: auto;
 }
 
 #Home h1
 {
-    margin-left: 150px;
+    
 }
 
 #Home 
 {
-    margin-left: 550px;
+        text-align: center;
 }
 
 #Taal
 {
-    margin-left: 480px;
-    margin-top: 30px;
+    margin-left: 35%;
+    margin-top: 21px;
 }
 
 #Taal a
@@ -46,13 +45,14 @@ h1
 {
     background-color: #A02C92;
     display: inline;
-    margin-left: 30px;
-    padding: 30px;
-    padding-left: 60px;
-    padding-right: 60px;
+    margin-left: 18px;
+    padding: 25px;
+    padding-left: 40px;
+    padding-right: 35px;
 }
 
-#block1
+/*#block1
 {
     margin-top: 300px;
 }
+*/
