@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Reservatie</title>
+        <meta name="Navigatie oefening" content="Navigatie oefening">
+        <link rel="stylesheet" href="opmaak2.css">
+        
+    </head>
+    <body>
+        
+        
+        <nav>
+            <ul>
+                <li><a href="homened.html">Home</a></li>
+                <li><a href="menu_nl.html">Menu en openingsuren</a></li>
+                <li><a href="">Praktische info</a></li>
+                <li><a href="">vind ons</a></li>
+                <li><a href="reservatiened.html">Reserveren </a></li>
+            </ul>
+
+
+        </nav>
+        
+        <form 
+        action="mailto: info@chezdarna.be"
+        method="post">
+            
+            <fieldset>
+                <legend><h1>Maak hieronder een reservatie voor de gewenste dag</h1></legend>
+                
+                <span class="flyer"><input name="flyer" type="image" src="IMG/flyer.jpg" /></span>
+                <label>Naam: <input type="text"></label>
+                <label>Voornaam: <input type="text"></label>
+                <br>
+                <label>e-mail adres: <input type="email"></label>
+                <label>GSM-nummer: <input type="tel"></label>
+                <br>
+                <label> Selecteer het aantal personen:</label>
+                <select id="aantal" name="aantal">
+                    <option value="1"> 1</option>
+                    <option value="2"> 2</option>
+                    <option value="3"> 3</option>
+                    <option value="4"> 4</option>
+                    <option value="5"> 5</option>
+                    <option value="6"> 6</option>
+                    <option value="7"> 7</option>
+                    <option value="8"> 8</option>
+                    <option value="9"> 9</option>
+                    <option value="10"> Gelieve telefonsich contact op te nemen voor een grotere groep</option>
+                </select>
+                <br>
+                <label>Kies de gewenste datum: <input type="date" /></label>
+                <br>
+                <label>Kies het gewenste uur: <input type="time"/></label>   
+                <br>
+                <label> Mededeling:</label>
+                <br>
+                <textarea id="mening" rows="15" cols="100"> Schrijf hier een mededeling indien nodig</textarea>                
+                
+            </fieldset> 
+        
+        </form>
+
+        
+    </body>
+</html>
