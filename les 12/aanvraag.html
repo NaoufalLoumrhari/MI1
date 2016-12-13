@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8" >
+		<meta name="description" content="beschrijving van de webpagina" >
+		<meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+        <meta name="viewport" content="width=device-width, height=device-height" />
+		<title>Titel van de webpagina</title>
+        <link rel="stylesheet" href="opmaakLes12.css">
+
+	</head>
+
+	<body>
+        
+        <h1>Hookah Party</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="uitnodiging.html">Home</a></li>
+                <li><a href="locatie.html">Locatie</a></li>
+                <li><a href="">datum</a></li>
+                <li><a href="aanvraag.html">Uitnodiging vragen</a></li>
+            </ul>
+        </nav>
+        
+        <form 
+        action="mailto: info@chezdarna.be"
+        method="post">
+            
+            <fieldset>
+                <legend><h1>Vul hieronder de gegevens in voor een uitnodiging.</h1></legend>
+                <label>Naam: <input type="text"></label>
+                <label>Voornaam: <input type="text"></label>
+                <br>
+                <label>e-mail adres: <input type="email"></label>
+                <label>GSM-nummer: <input type="tel"></label>
+                <br>
+                <label> Selecteer het aantal personen:</label>
+                <select id="aantal" name="aantal">
+                    <option value="1"> 1</option>
+                    <option value="2"> 2</option>
+                    <option value="3"> 3</option>
+                    <option value="4"> 4</option>
+                    <option value="5"> 5</option>
+                    <option value="6"> 6</option>
+                    <option value="7"> 7</option>
+                    <option value="8"> 8</option>
+                    <option value="9"> 9</option>
+                    <option value="10"> Neem telefonisch contact op</option>
+                </select>
+                                
+                <br>
+                <label>Vanaf welk uur aanwezig: <input type="time"/></label>
+                <br>
+                <label> Welke tafel wenst u:
+                <input type="radio" name="gender" value="male" checked> VIP
+                <input type="radio" name="gender" value="female"> Normaal
+                    <input type="radio" name="gender" value="other"> Eerste ruimte
+                </label>
+                <br>
+                <label> Mededeling:</label>
+                <br>
+                <textarea id="mening" rows="10" cols="50"> Schrijf hier een mededeling indien nodig</textarea>                
+                <span class="kop"><input name="flyer" type="image" src="img/achtergrondbody.png" /></span>
+            </fieldset> 
+        
+        </form>
+   
+	</body>
+</html>
