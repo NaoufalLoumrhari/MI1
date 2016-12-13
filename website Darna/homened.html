@@ -15,15 +15,44 @@
         <nav>
             <ul>
                 <li><a href="homened.html">Home</a></li>
-                <li><a href="menu_nl.html">Menu en openingsuren</a></li>
+                <li><a href="menu_nl.html">Menu en openingsuren</a></li>                
                 <li><a href="">Praktische info</a></li>
-                <li><a href="">vind ons</a></li>
+                <li><a href="vindons.html">vind ons</a></li>
                 <li><a href="reservatiened.html">Reserveren </a></li>
             </ul>
 
-
         </nav>
 
+            <div class="slideshow">
+              <a class="btnLinks" onclick="plusDivs(-1)">&#10094;</a>
+              <a class="btnRechts" onclick="plusDivs(1)">&#10095;</a>
+              <img class="mySlides" src="IMG/flyer2.jpg" >
+              <img class="mySlides" src="IMG/voorgevel.jpg" >
+              <img class="mySlides" src="IMG/pizza.jpg" >
+              <img class="mySlides" src="img_forest.jpg">
+
+              
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                  showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  if (n > x.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";  
+                  }
+                  x[slideIndex-1].style.display = "block";  
+                }
+            </script>
         
     </body>
 </html>

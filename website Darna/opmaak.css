@@ -1,11 +1,15 @@
 body
 {
-    background-color: #E36DD5;
+    background-image: url(IMG/achtergrond.jpg);
+    background-size: 100%;
 }
 
 h1
 {
-    color: #820E74;
+    color: black;
+    text-align: center;
+    background-color: darkred;
+    opacity: 0.5;
 }
 
 #Home img
@@ -22,34 +26,74 @@ h1
 {
         text-align: center;
 }
+#Taal2
+{
+    text-align: center;
+}
 
 #Taal
 {
-    margin-left: 35%;
-    margin-top: 21px;
+    text-align: center;
+    margin-top: 5%;
 }
 
 #Taal a
 {
-    background-color: #A02C92;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+    border-style: groove;
+    border-color: black;
+    background-color: rgb(139, 0, 0 );
     text-decoration: none;
-    color: white;
-    padding: 25px;
-    padding-left: 40px;
-    padding-right: 35px;
 }
 
-#Taal li :hover
+#Taal2 a
 {
-    background-color: aqua;
-    
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 6%;
+    padding-right: 5%;
+    color: black;
+    border-style: groove;
+    border-color: black;
+    background-color: rgb(139, 0, 0 );
+    text-decoration: none; 
+}
+
+#Taal2 li a:hover
+{
+    background-image: url(IMG/frans.jpg);
+    background-size: 100%;
+    font-weight: bolder;
+    font-size: 1.50em;
+    color: black;
+    opacity: 0.5;
+}
+
+#Taal li a:hover
+{
+    background-image: url(IMG/nederlands.jpg);
+    background-size: 100%;
+    font-weight: bolder;
+    font-size: 1.50em;
+    color: black;
+    opacity: 0.5;
+}
+
+#Taal2 li
+{
+    list-style-type: none;
+    margin: 5%; 
 }
 
 #Taal li
 {
-    background-color: #A02C92;
-    display: inline;
-    margin-left: 18px;
+    list-style-type: none;
+    margin: 5%;   
+    background-image: url();
    /* padding: 25px;
     padding-left: 40px;
     padding-right: 35px;*/

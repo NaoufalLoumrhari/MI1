@@ -1,10 +1,15 @@
+html
+{
+    height: 100%;
+}
+
 body
 {
     background-image: url(IMG/achtergrond.jpg);
-    background-repeat: no-repeat;
+    height: 100%;
     background-size: 100%;
-    color: darkturquoise;
-    font-family: sans-serif;
+    color: whitesmoke;
+    font-family: serif;
 }
 
 nav
@@ -31,7 +36,7 @@ nav ul
 
 nav li
 {
-    background-color:#9E2890;
+    background-color:darkred;
     border-radius: 10px;
     list-style: none;
     list-style-position: outside;
@@ -50,7 +55,7 @@ nav li a
 {
     
     text-decoration: none;
-    color: #F3C5ED;
+    color: black;
     display: block;
     
 }
@@ -62,23 +67,33 @@ nav li a:hover
     border-radius: 10px;
     font-weight: bolder;
     font-size: 1.20em;
-    background-color: #F3A0E9;
-    color: #5B1252;
+    background-color: red;
+    opacity: 0.9;
+    color: whitesmoke;
     border-color: #5B1252;
-    height: 56px;
-    
+    height: 56px;    
 }
 .prijslijst
 {
+    background-color: darkred;
+    border-style: groove;
+    border-color: darkred;
+    opacity: 0.4;
     width: 48%;
     float: left;
 }
-
+.prijslijst:hover
+{
+    background-color: darkred;
+    opacity: 1;
+}
 h1
 {
     text-align: center;
     text-decoration: underline;
-    color: blueviolet;
+    color: black;
+    background-color: darkred;
+    opacity: 0.7;
 }
 .flyer
 {
@@ -103,6 +118,17 @@ fieldset
     padding: 10px;
 }
 
+
+iframe
+{
+    margin-top: 2%;
+    margin-left: 5%;
+    
+}
+#flyer2
+{
+    text-align: center;
+}
 @media screen and (max-width:800px)
 {
     nav li 
@@ -115,6 +141,16 @@ fieldset
         margin-top: 250px;
     }
     fieldset
+    {
+        margin-top: 250px;
+    }
+    
+    iframe
+    {
+        margin-top: 250px;
+    }
+    
+    .slideshow
     {
         margin-top: 250px;
     }
