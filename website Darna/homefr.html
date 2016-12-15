@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>acceul/fr</title>
+        <title>Home/fr</title>
         <meta name="Navigatie oefening" content="Navigatie oefening">
         <link rel="stylesheet" href="opmaak2.css">
         
@@ -14,16 +14,45 @@
         
         <nav>
             <ul>
-                <li><a href="homefr.html">Acceuil</a></li>
-                <li><a href="menu_fr.html">Menu et heures d'ouverture</a></li>
-                <li><a href="">Info</a></li>
-                <li><a href="">Trouvez-nous</a></li>
+                <li><a href="homefr.html">Accueil</a></li>
+                <li><a href="menu_fr.html">Menu et heure d'ouverture</a></li>                
+                <li><a href="trouvezNous.html">trouvez-nous</a></li>
                 <li><a href="reservationfr.html">Reservation </a></li>
+                <li><a href="homened.html">Nederlands versie</a></li>
             </ul>
-
 
         </nav>
 
+            <div class="slideshow">
+              <a class="btnLinks" onclick="plusDivs(-1)">&#10094;</a>
+              <a class="btnRechts" onclick="plusDivs(1)">&#10095;</a>
+              <img class="mySlides" src="IMG/flyer2.jpg" >
+              <img class="mySlides" src="IMG/voorgevel.jpg" >
+              <img class="mySlides" src="IMG/pizza.jpg" >
+              <img class="mySlides" src="img_forest.jpg">
+
+              
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                  showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  if (n > x.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";  
+                  }
+                  x[slideIndex-1].style.display = "block";  
+                }
+            </script>
         
     </body>
 </html>
