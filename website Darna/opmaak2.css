@@ -109,15 +109,17 @@ nav li a:hover
     background-color: darkred;
     border-style: groove;
     border-color: darkred;
-    opacity: 0.4;
+    opacity: 0.65;
     width: 48%;
     float: left;
 }
+
 .prijslijst:hover
 {
     background-color: darkred;
     opacity: 1;
 }
+
 h1
 {
     text-align: center;
@@ -146,9 +148,17 @@ h1
 fieldset
 {
     width: 75%;
-    margin: 50px;
+    margin-right:20px;
     padding: 10px;
 }
+label
+{
+    color: darkred;
+    background-color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 table
 {
     width: 50%;
@@ -167,8 +177,15 @@ th
 }
 td
 {
+    
+    text-align: center;
     border-style: dashed;
     border-color: darkred;
+}
+tr:hover
+{
+    font-weight: bolder;
+    background-color: black;
 }
 
 table:hover
@@ -176,7 +193,25 @@ table:hover
     background-color: darkred;
     color: whitesmoke;
 }
+#gegevens
+{
+    text-align: center;
+    color: darkred;
+    font-size: 1.2em;
+    font-weight: bold;
+}
 
+#cont
+{
+    background-color: black;
+    opacity: 0.8;
+}
+#cont:hover
+{
+    background-color: black;
+    opacity: 1;
+}
+/*
 th:hover
 {
     border-style: dashed;
@@ -186,7 +221,7 @@ td:hover
     border-style: dashed;
     border-color: black;
 }
-
+*/
 iframe
 {
     margin-left: 5%;
@@ -215,7 +250,9 @@ iframe
     
     fieldset
     {
+        margin-left: 25px;
         margin-top: 250px;
+        text-align: center;
     }
     .prijslijst
     {

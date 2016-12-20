@@ -30,15 +30,17 @@
             <fieldset>
                 <legend><h1>Veuillez remplir les cadres pour une réservation</h1></legend>
                 
-                <span class="flyer"><input name="flyer" type="image" src="IMG/flyer.jpg" /></span>
-                <label>Nom: <input type="text"></label>
-                <label>Prénom: <input type="text"></label>
+                
+                <label>Nom: <input type="text" name="nom"></label>
                 <br>
-                <label>Adress mail: <input type="email"></label>
-                <label>Portable: <input type="tel"></label>
+                <label>Prénom: <input type="text" name="prenom"></label>
+                <br>
+                <label>Adress mail: <input type="email" name="mail"></label>
+                <br>
+                <label>Portable: <input type="tel" name="protable"></label>
                 <br>
                 <label> Indiquer le nombre de(s) personne(s):</label>
-                <select id="aantal" name="aantal">
+                <select id="aantal" name="nombre">
                     <option value="1"> 1</option>
                     <option value="2"> 2</option>
                     <option value="3"> 3</option>
@@ -51,13 +53,13 @@
                     <option value="10"> Veuillez nous contacter pour un group plus que 9 personnes</option>
                 </select>
                 <br>
-                <label>choisiser la date souhaité: <input type="date" /></label>
+                <label>choisiser la date souhaité: <input type="date" name="datum"></label>
                 <br>
-                <label>Choisisez l'heure souhaité: <input type="time"/></label>   
+                <label>Choisisez l'heure souhaité: <input type="time" name="heure"></label>   
                 <br>
                 <label> Message:</label>
                 <br>
-                <textarea id="mening" rows="15" cols="100"> Schrijf hier een mededeling indien nodig</textarea>                
+                <textarea id="mening" rows="15" cols="90" name="com: "> Schrijf hier een mededeling indien nodig</textarea>                
                 
             </fieldset> 
         

@@ -26,17 +26,16 @@
         
         <form 
         action="mailto: info@chezdarna.be"
-        method="post">
+        method="post" enctype="text/plain">
             
             <fieldset>
                 <legend><h1>Maak hieronder een reservatie voor de gewenste dag</h1></legend>
                 
-                <span class="flyer"><input name="flyer" type="image" src="IMG/flyer.jpg" /></span>
-                <label>Naam: <input type="text"></label>
-                <label>Voornaam: <input type="text"></label>
+                <label>Naam: <input type="text" name="Naam"></label><br>
+                <label>Voornaam: <input type="text" name="Voornaam"></label>
                 <br>
-                <label>e-mail adres: <input type="email"></label>
-                <label>GSM-nummer: <input type="tel"></label>
+                <label>e-mail adres: <input type="email" name="mail"></label><br>
+                <label>GSM-nummer: <input type="tel" name="nummer"></label>
                 <br>
                 <label> Selecteer het aantal personen:</label>
                 <select id="aantal" name="aantal">
@@ -52,18 +51,19 @@
                     <option value="10"> Gelieve telefonsich contact op te nemen voor een grotere groep</option>
                 </select>
                 <br>
-                <label>Kies de gewenste datum: <input type="date" /></label>
+                <label>Kies de gewenste datum: <input type="date" name="datum"></label>
                 <br>
-                <label>Kies het gewenste uur: <input type="time"/></label>   
+                <label>Kies het gewenste uur: <input type="time" name="tijd"></label>   
                 <br>
                 <label> Mededeling:</label>
                 <br>
-                <textarea id="mening" rows="15" cols="100"> Schrijf hier een mededeling indien nodig</textarea>                
-                
+                <textarea id="mening" rows="15" cols="90" name="mededeling"> Schrijf hier een mededeling indien nodig</textarea> 
+                <br>
+                 <button type="submit" value="send">Verzenden</button>
             </fieldset> 
-        
+               
         </form>
-
+            
         
     </body>
 </html>
