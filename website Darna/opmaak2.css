@@ -14,9 +14,13 @@ body
     height: 100%;
     background-size: 100%;
     color: whitesmoke;
-    font-family: serif;
+    font-family:sans-serif;
 }
-
+img
+{
+    height: 640px ;
+    width: 400px ;
+}
 nav
 {
    list-style: none;
@@ -50,7 +54,7 @@ nav ul
 
 #extra a
 {
-    color: black;
+    color: whitesmoke;
     border-style: groove;
     border-color: black;
     padding-left: 2%;
@@ -87,7 +91,7 @@ nav li a
 {
     
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
     display: block;
     
 }
@@ -124,7 +128,7 @@ h1
 {
     text-align: center;
     text-decoration: underline;
-    color: black;
+    color: whitesmoke;
     background-color: darkred;
     opacity: 0.7;
     clear: left;
@@ -145,16 +149,24 @@ h1
     float: right;
     font-weight: bold;
 }
+form
+{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
 fieldset
 {
-    width: 75%;
+    /*width: 75%;*/
     margin-right:20px;
     padding: 10px;
+    background-color: black;
+    opacity: 0.8;
 }
 label
 {
-    color: darkred;
-    background-color: black;
+    color: whitesmoke;
     font-size: 25px;
     font-weight: bold;
 }
@@ -165,7 +177,7 @@ table
     margin-left: 25%;
     border-style: groove;
     border-color: darkred;
-    color: darkred;
+    color: whitesmoke;
     font-size: 2em;
     background-color: black;
     opacity: 0.8;
@@ -222,11 +234,74 @@ td:hover
     border-color: black;
 }
 */
+
+.btnLinks
+{
+    font-size: 150%;
+    background-color: darkred;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+}
+.btnRechts
+{
+    font-size: 150%;
+    background-color: darkred;  
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+}
+.btnLinks:hover
+{
+    background-color: black;
+    cursor: pointer;
+}
+.btnRechts:hover
+{
+    background-color: black;
+    cursor: pointer;
+}
+
 iframe
 {
+    margin-top: 1%;
     margin-left: 5%;
+    width: 600px;
+    height: 450px;
     
 }
+.hoofd
+{
+    font-weight: bolder;
+}
+.slideshow
+{
+    text-align: center;
+}
+.mySlides
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+input
+{
+    border-radius: 15px;
+    text-align: center;
+    width: 35%;
+}
+textarea
+{
+    border-radius: 15px;
+    width: 60%;
+}
+select
+{
+    border-radius: 15px;
+    width: 35%;
+}
+
 #flyer2
 {
     text-align: center;
@@ -260,10 +335,6 @@ iframe
     width: 100%;        
     }
     
-    iframe
-    {
-    }
-    
     .slideshow
     {
         
@@ -283,6 +354,11 @@ iframe
         width: 100%;
         margin-left: 0;
         font-size: 1em;        
+    }
+    form
+    {
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
 

@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl-BE">
     
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Reservatie</title>
-        <meta name="Navigatie oefening" content="Navigatie oefening">
         <link rel="stylesheet" href="opmaak2.css">
         
     </head>
@@ -31,14 +30,14 @@
             <fieldset>
                 <legend><h1>Maak hieronder een reservatie voor de gewenste dag</h1></legend>
                 
-                <label>Naam: <input type="text" name="Naam"></label><br>
-                <label>Voornaam: <input type="text" name="Voornaam"></label>
+                <label for="naam">Naam: <br><input id="naam" type="text" name="Naam"></label><br>
+                <label for="voornaam">Voornaam:<br> <input id="voornaam" type="text" name="Voornaam"></label>
                 <br>
-                <label>e-mail adres: <input type="email" name="mail"></label><br>
-                <label>GSM-nummer: <input type="tel" name="nummer"></label>
+                <label for="mail">e-mail adres:<br> <input id="mail" type="email" name="mail"></label><br>
+                <label for="nummer">GSM-nummer: <br><input id="nummer"type="tel" name="nummer"></label>
                 <br>
-                <label> Selecteer het aantal personen:</label>
-                <select id="aantal" name="aantal">
+                <label for="aantal"> Selecteer het aantal personen:</label><br>
+                <select  id="aantal" name="aantal">
                     <option value="1"> 1</option>
                     <option value="2"> 2</option>
                     <option value="3"> 3</option>
@@ -51,11 +50,11 @@
                     <option value="10"> Gelieve telefonsich contact op te nemen voor een grotere groep</option>
                 </select>
                 <br>
-                <label>Kies de gewenste datum: <input type="date" name="datum"></label>
+                <label for="datum">Kies de gewenste datum:<br> <input id="datum" type="date" name="datum"></label>
                 <br>
-                <label>Kies het gewenste uur: <input type="time" name="tijd"></label>   
+                <label for="tijd">Kies het gewenste uur:<br> <input id="tijd" type="time" name="tijd"></label>   
                 <br>
-                <label> Mededeling:</label>
+                <label for="mening"> Mededeling:</label>
                 <br>
                 <textarea id="mening" rows="15" cols="90" name="mededeling"> Schrijf hier een mededeling indien nodig</textarea> 
                 <br>

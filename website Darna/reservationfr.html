@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr-BE">
     
     <head>
         <meta charset="utf-8">
@@ -31,15 +31,15 @@
                 <legend><h1>Veuillez remplir les cadres pour une réservation</h1></legend>
                 
                 
-                <label>Nom: <input type="text" name="nom"></label>
+                <label for="naam">Nom:<br> <input id="naam" type="text" name="nom"></label>
                 <br>
-                <label>Prénom: <input type="text" name="prenom"></label>
+                <label for="voornaam">Prénom:<br> <input id="voornaam" type="text" name="prenom"></label>
                 <br>
-                <label>Adress mail: <input type="email" name="mail"></label>
+                <label for="mail">Adress mail: <br><input id="mail" type="email" name="mail"></label>
                 <br>
-                <label>Portable: <input type="tel" name="protable"></label>
+                <label for="num">Portable:<br> <input id="num" type="tel" name="protable"></label>
                 <br>
-                <label> Indiquer le nombre de(s) personne(s):</label>
+                <label for="aantal"> Indiquer le nombre de(s) personne(s):<br></label>
                 <select id="aantal" name="nombre">
                     <option value="1"> 1</option>
                     <option value="2"> 2</option>
@@ -53,13 +53,15 @@
                     <option value="10"> Veuillez nous contacter pour un group plus que 9 personnes</option>
                 </select>
                 <br>
-                <label>choisiser la date souhaité: <input type="date" name="datum"></label>
+                <label for="datum">choisiser la date souhaité: <br><input id="datum"type="date" name="date"></label>
                 <br>
-                <label>Choisisez l'heure souhaité: <input type="time" name="heure"></label>   
+                <label for="tijd">Choisisez l'heure souhaité:<br> <input id="tijd" type="time" name="heure"></label>   
                 <br>
-                <label> Message:</label>
+                <label for="mening"> Message:</label>
                 <br>
-                <textarea id="mening" rows="15" cols="90" name="com: "> Schrijf hier een mededeling indien nodig</textarea>                
+                <textarea id="mening" rows="15" cols="90" name="com:"> Schrijf hier een mededeling indien nodig</textarea> 
+                <br>
+                <button type="submit" value="send">Verzenden</button>
                 
             </fieldset> 
         
